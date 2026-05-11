@@ -10,14 +10,18 @@
     "grep": {},
     "grepInvert": null,
     "maxFailures": 0,
-    "metadata": {},
+    "metadata": {
+      "actualWorkers": 3
+    },
     "preserveOutput": "always",
     "projects": [
       {
         "outputDir": "/Users/taarunpurusothaman/Desktop/May2026PlayWrightSessions/test-results",
         "repeatEach": 1,
         "retries": 0,
-        "metadata": {},
+        "metadata": {
+          "actualWorkers": 3
+        },
         "id": "chromium",
         "name": "chromium",
         "testDir": "/Users/taarunpurusothaman/Desktop/May2026PlayWrightSessions/tests",
@@ -31,7 +35,9 @@
         "outputDir": "/Users/taarunpurusothaman/Desktop/May2026PlayWrightSessions/test-results",
         "repeatEach": 1,
         "retries": 0,
-        "metadata": {},
+        "metadata": {
+          "actualWorkers": 3
+        },
         "id": "firefox",
         "name": "firefox",
         "testDir": "/Users/taarunpurusothaman/Desktop/May2026PlayWrightSessions/tests",
@@ -45,7 +51,9 @@
         "outputDir": "/Users/taarunpurusothaman/Desktop/May2026PlayWrightSessions/test-results",
         "repeatEach": 1,
         "retries": 0,
-        "metadata": {},
+        "metadata": {
+          "actualWorkers": 3
+        },
         "id": "webkit",
         "name": "webkit",
         "testDir": "/Users/taarunpurusothaman/Desktop/May2026PlayWrightSessions/tests",
@@ -93,17 +101,123 @@
     "workers": 5,
     "webServer": null
   },
-  "suites": [],
-  "errors": [
+  "suites": [
     {
-      "message": "Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments.",
-      "stack": "Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."
+      "title": "chapter6.spec.ts",
+      "file": "chapter6.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "open browser test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1154,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-11T16:17:52.157Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "67c0c074a5457886aa98-acddda8269ee03842b67",
+          "file": "chapter6.spec.ts",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "open browser test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1495,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-11T16:17:52.157Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "67c0c074a5457886aa98-c5f0134d2c479d4f0d6b",
+          "file": "chapter6.spec.ts",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "open browser test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1618,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-11T16:17:52.160Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "67c0c074a5457886aa98-4d2df31a053b4d48cf02",
+          "file": "chapter6.spec.ts",
+          "line": 4,
+          "column": 5
+        }
+      ]
     }
   ],
+  "errors": [],
   "stats": {
-    "startTime": "2026-05-11T14:04:16.304Z",
-    "duration": 3.8940000000000055,
-    "expected": 0,
+    "startTime": "2026-05-11T16:17:51.883Z",
+    "duration": 2890.6040000000003,
+    "expected": 3,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

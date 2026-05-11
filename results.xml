@@ -1,2 +1,14 @@
-<testsuites id="" name="" tests="0" failures="0" skipped="0" errors="0" time="0.0038940000000000055">
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="2.890604">
+<testsuite name="chapter6.spec.ts" timestamp="2026-05-11T16:17:51.899Z" hostname="chromium" tests="1" failures="0" skipped="0" time="1.154" errors="0">
+<testcase name="open browser test" classname="chapter6.spec.ts" time="1.154">
+</testcase>
+</testsuite>
+<testsuite name="chapter6.spec.ts" timestamp="2026-05-11T16:17:51.899Z" hostname="firefox" tests="1" failures="0" skipped="0" time="1.495" errors="0">
+<testcase name="open browser test" classname="chapter6.spec.ts" time="1.495">
+</testcase>
+</testsuite>
+<testsuite name="chapter6.spec.ts" timestamp="2026-05-11T16:17:51.899Z" hostname="webkit" tests="1" failures="0" skipped="0" time="1.618" errors="0">
+<testcase name="open browser test" classname="chapter6.spec.ts" time="1.618">
+</testcase>
+</testsuite>
 </testsuites>
