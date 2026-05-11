@@ -1,24 +1,8 @@
-<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="2.1614100000000005">
-<testsuite name="browserContext.spec.ts" timestamp="2026-05-11T11:29:06.293Z" hostname="chromium" tests="1" failures="0" skipped="0" time="0.607" errors="0">
-<testcase name="open chrome" classname="browserContext.spec.ts" time="0.607">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="1.2036069999998436">
+<testsuite name="launchUrl.spec.ts" timestamp="2026-05-11T12:28:56.124Z" hostname="chromium" tests="1" failures="0" skipped="0" time="0.374" errors="0">
+<testcase name="check page title" classname="launchUrl.spec.ts" time="0.374">
 <system-out>
-<![CDATA[Page title is: Google
-]]>
-</system-out>
-</testcase>
-</testsuite>
-<testsuite name="browserContext.spec.ts" timestamp="2026-05-11T11:29:06.293Z" hostname="firefox" tests="1" failures="0" skipped="0" time="1.071" errors="0">
-<testcase name="open chrome" classname="browserContext.spec.ts" time="1.071">
-<system-out>
-<![CDATA[Page title is: Google
-]]>
-</system-out>
-</testcase>
-</testsuite>
-<testsuite name="browserContext.spec.ts" timestamp="2026-05-11T11:29:06.293Z" hostname="webkit" tests="1" failures="0" skipped="0" time="0.877" errors="0">
-<testcase name="open chrome" classname="browserContext.spec.ts" time="0.877">
-<system-out>
-<![CDATA[Page title is: Google
+<![CDATA[page title : 
 ]]>
 </system-out>
 </testcase>
