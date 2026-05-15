@@ -1,14 +1,34 @@
-<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="2.890604">
-<testsuite name="chapter6.spec.ts" timestamp="2026-05-11T16:17:51.899Z" hostname="chromium" tests="1" failures="0" skipped="0" time="1.154" errors="0">
-<testcase name="open browser test" classname="chapter6.spec.ts" time="1.154">
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="0.305418">
+<testsuite name="19hooks.spec.ts" timestamp="2026-05-14T11:58:56.257Z" hostname="chromium" tests="3" failures="0" skipped="0" time="0.001" errors="0">
+<testcase name="Home Page Test" classname="19hooks.spec.ts" time="0.001">
+<system-out>
+<![CDATA[beforeALL -- server is up and running!!
+beforeEach -- user is logged in!!
+home page test
+afterEach -- logout!!
+afterAll -- close browser
+]]>
+</system-out>
 </testcase>
-</testsuite>
-<testsuite name="chapter6.spec.ts" timestamp="2026-05-11T16:17:51.899Z" hostname="firefox" tests="1" failures="0" skipped="0" time="1.495" errors="0">
-<testcase name="open browser test" classname="chapter6.spec.ts" time="1.495">
+<testcase name="Search Product Test" classname="19hooks.spec.ts" time="0">
+<system-out>
+<![CDATA[beforeALL -- server is up and running!!
+beforeEach -- user is logged in!!
+Search Product test
+afterEach -- logout!!
+afterAll -- close browser
+]]>
+</system-out>
 </testcase>
-</testsuite>
-<testsuite name="chapter6.spec.ts" timestamp="2026-05-11T16:17:51.899Z" hostname="webkit" tests="1" failures="0" skipped="0" time="1.618" errors="0">
-<testcase name="open browser test" classname="chapter6.spec.ts" time="1.618">
+<testcase name="Cart Test" classname="19hooks.spec.ts" time="0">
+<system-out>
+<![CDATA[beforeALL -- server is up and running!!
+beforeEach -- user is logged in!!
+Cart test
+afterEach -- logout!!
+afterAll -- close browser
+]]>
+</system-out>
 </testcase>
 </testsuite>
 </testsuites>

@@ -1,0 +1,17 @@
+[
+  {
+    "firstName": "Alice",
+    "lastName": "Smith",
+    "email": "alice@gmail.com",
+    "telephone": "1234567890",
+    "password": "Password@123",
+    "subscribeNewsletter": "Yes"
+  },
+  {
+    "firstName": "Bob",
+    "lastName": "Jones",
+    "telephone": "0987654321",
+    "password": "Secret@456",
+    "subscribeNewsletter": "No"
+  }
+]
